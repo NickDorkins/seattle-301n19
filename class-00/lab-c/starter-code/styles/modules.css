@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
-
-* {
-  font-family: times;
-}
-
-body {
-  background: #fff;
-}
-
-nav, article, aside, footer section {
-  margin: 0 auto;
-  width: 900px;
-}
-
-nav {
-  margin-top: 25px;
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
 }
 
 #logo {
@@ -41,22 +30,6 @@ nav {
   font-family: 'Abel', sans-serif;
   font-size: .65em;
   text-transform: uppercase;
-}
-
-nav ul {
-  float: right;
-}
-
-nav li {
-  float: left;
-  padding-right: 2px;
-}
-
-hr {
-  clear: both;
-  border: 0;
-  height: 13px;
-  background-image: url('../img/hr.png');
 }
 
 h2 {
@@ -89,26 +62,9 @@ h2 {
   margin-right: 3px;
 }
 
-main p {
-  color: #333;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
-}
 
 input {
   font-family: 'Patrick Hand', cursive;
-}
-
-.recipe {
-  letter-spacing: .1em;
-  font-family: 'Patrick Hand', cursive;
-  color: #666a42;
-  background-image: url("img/list-bg.png");
-  height: 260px;
-  padding: 37px 0 0 60px;
-  margin: 40px 0;
 }
 
 .recipe li {
@@ -121,10 +77,6 @@ input {
 aside {
   padding-top: 30px;
   padding-bottom: 60px
-}
-
-aside img {
-  float: left;
 }
 
 aside h3 {
@@ -158,13 +110,9 @@ section hr {
   height: 0;
 }
 
-
 footer section p{
   padding: 50px 0;
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
-}
-
-
 }
